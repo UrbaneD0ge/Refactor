@@ -18,7 +18,7 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 header h1 #seo {
@@ -30,7 +30,7 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 header nav ul {
@@ -47,7 +47,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 #hero {
@@ -71,7 +71,6 @@ p {
 
 /* Section */
 /* article */
-
 .article {
     width: 75%;
     display: inline-block;
@@ -87,9 +86,9 @@ p {
     color: #ffffff;
 }
 
-    article img {
-        max-height: 200px;
-    }
+article img {
+    max-height: 200px;
+}
 
 article h2 {
     margin-bottom: 20px;
@@ -98,6 +97,9 @@ article h2 {
 
 /* aside */
 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 20%;
     height: 100%;
     clear: both;
@@ -109,6 +111,9 @@ aside {
 }
 
 .benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -119,7 +124,7 @@ aside {
 }
 
 .benefits img {
-    margin: 10px;
+    margin: 20px;
     max-width: 150px;
 }
 
@@ -132,5 +137,5 @@ footer {
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 1.2em;
 }
