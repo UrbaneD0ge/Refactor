@@ -71,10 +71,14 @@ p {
 
 /* Section */
 /* article */
-article {
+
+.article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+ article {   
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,9 +87,9 @@ article {
     color: #ffffff;
 }
 
-article img {
-    max-height: 200px;
-}
+    article img {
+        max-height: 200px;
+    }
 
 article h2 {
     margin-bottom: 20px;
